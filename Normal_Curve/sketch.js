@@ -15,9 +15,9 @@ var start = 20;
 
   function setup() {
     var cnv = createCanvas(windowWidth-25, windowHeight-25);
-      var winx = (windowWidth - width) / 2;
-  var winy = (windowHeight - height) / 2;
-  cnv.position(winx, winy);
+    var winx = (windowWidth - width) / 2;
+    var winy = (windowHeight - height) / 2;
+    cnv.position(winx, winy);
 
     meanSlider = createSlider(-maxMean, maxMean, 0, 1);
     meanSlider.position(xOff,start);
